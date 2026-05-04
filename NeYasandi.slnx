@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NeYasandi.API/NeYasandi.API.csproj" />
+    <Project Path="src/NeYasandi.Application/NeYasandi.Application.csproj" />
+    <Project Path="src/NeYasandi.Domain/NeYasandi.Domain.csproj" />
+    <Project Path="src/NeYasandi.Infrastructure/NeYasandi.Infrastructure.csproj" />
+    <Project Path="src/NeYasandi.Worker/NeYasandi.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NeYasandi.API.Tests/NeYasandi.API.Tests.csproj" />
+    <Project Path="tests/NeYasandi.Application.Tests/NeYasandi.Application.Tests.csproj" />
+    <Project Path="tests/NeYasandi.Domain.Tests/NeYasandi.Domain.Tests.csproj" />
+    <Project Path="tests/NeYasandi.Infrastructure.Tests/NeYasandi.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
