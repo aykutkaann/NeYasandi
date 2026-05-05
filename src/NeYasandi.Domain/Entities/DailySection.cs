@@ -15,9 +15,10 @@ namespace NeYasandi.Domain.Entities
         public string? AudioUrl { get; set; }
         public AudioStatus AudioStatus { get; set; }
         public int? AudioDurationSeconds { get; set; }
-        public Guid EditorId { get; set; }
+        public ContentSource ContentSource { get; set; }
+        public Guid? EditorId { get; set; }
         public DateTime? PublishedAt { get; set; }
-        public DateTime AutoPublishedAt { get; set; }
+        public DateTime? AutoPublishedAt { get; set; }
         public int DisplayOrder { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
