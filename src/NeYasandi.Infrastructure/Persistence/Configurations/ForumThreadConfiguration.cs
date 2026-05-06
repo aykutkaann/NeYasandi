@@ -11,7 +11,7 @@ namespace NeYasandi.Infrastructure.Persistence.Configurations
             builder.HasKey(f => f.Id);
 
             builder.HasIndex(f => new { f.DailyPageId, f.CategoryId });
-
+            
             builder.Property(f => f.DailyPageId).IsRequired();
             builder.Property(f => f.CategoryId).IsRequired();
             builder.Property(f => f.Title).IsRequired().HasMaxLength(200);
